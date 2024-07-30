@@ -2,7 +2,7 @@ import {Component, Input, OnChanges, SimpleChanges} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
 @Component({
-  selector: 'app-password-strength-meter',
+  selector: 'app-password-strength-bar',
   standalone: true,
   templateUrl: './password-strength-bar.component.html',
   styleUrls: ['./password-strength-meter.component.css'],

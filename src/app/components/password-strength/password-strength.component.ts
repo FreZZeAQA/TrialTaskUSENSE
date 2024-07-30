@@ -1,6 +1,6 @@
 import {Component, inject, OnInit} from '@angular/core';
 import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from '@angular/forms';
-import {PasswordStrengthBarComponent} from '../password-strength-meter/password-strength-bar.component';
+import {PasswordStrengthBarComponent} from '../password-strength-bar/password-strength-bar.component';
 import {CommonModule} from '@angular/common';
 
 @Component({
