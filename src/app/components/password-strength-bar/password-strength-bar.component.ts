@@ -5,12 +5,13 @@ import {CommonModule} from '@angular/common';
   selector: 'app-password-strength-bar',
   standalone: true,
   templateUrl: './password-strength-bar.component.html',
-  styleUrls: ['./password-strength-meter.component.css'],
+  styleUrls: ['./password-strength-bar.component.css'],
   imports: [CommonModule]
 })
 export class PasswordStrengthBarComponent implements OnChanges {
   @Input()
   password: string;
+
   firstSectionClass: string;
   secondSectionClass: string;
   thirdSectionClass: string;
